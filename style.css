@@ -1,4 +1,5 @@
 /* Reset */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +7,7 @@
 }
 
 /* Common */
+
 .clearfix::after {
     content: "";
     display: block;
@@ -19,6 +21,7 @@
 }
 
 /* Typography */
+
 body{
     font-family: 'Fredoka', sans-serif;
 }
@@ -28,11 +31,38 @@ h1{
     text-align: center;
 }
 
+.info-profilo{
+    color: white;
+}
+
 #parag{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 40px;
     text-align: center;
 }
 
+a{
+    color: lightskyblue;
+}
+
 /* Main */
 
+.immagine1{
+    background-color: black;
+    margin: 20px;
+    width: calc(33.33% - 60px);
+    height: 100px;
+    float: left;
+}
+
+img{
+    float: left;
+    display: block;
+    height: 100%;
+}
+
+.info-profilo{
+    float: left;
+    padding: 10px;
+    width: calc(100% - 100px);
+}
